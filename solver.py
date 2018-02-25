@@ -72,7 +72,7 @@ def fem(g0, u2, f, n):
 
 
 def main():
-    fem(-3, -3, lambda x: x ** 2 + 10 * x, 1111)
+    fem(-10, -3, lambda x: np.log2(x + 1) + np.exp(x ** 3 - 17), 1112)
 
 
 if __name__ == "__main__":
